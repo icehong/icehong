@@ -1,0 +1,8 @@
+title: 享受工作，享受生活
+description: 记录点滴
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
