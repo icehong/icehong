@@ -1,7 +1,7 @@
 title: 享受工作，享受生活
-description: 记录点滴
+description: 点滴记录
 google_analytics: 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-cayman
 
 gems:
