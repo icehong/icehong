@@ -82,10 +82,10 @@ for i in range(len(mylisty)-1):
     for j in range(len(mylistx)-1):
         #在分割时，第一个参数为y坐标，第二个参数为x坐标
         ROI = image[mylisty[i]+3:mylisty[i+1]-3,mylistx[j]:mylistx[j+1]-3] #减去3的原因是由于我缩小ROI范围
-        cv2.imshow("分割后子图片展示：",ROI)
+        #cv2.imshow("分割后子图片展示：",ROI)
         #cv2.waitKey(0)
 
-        result = reader.readtext(ROI,detail = 0)
+        result = reader.readtext(ROI,detail = 0,paragraph=True)
         if len(result) > 0 :
         #text2 = ''.join([char for char in text2 if char not in special_char_list])
             print('识别信息：' + ''.join(result))        
